@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+/* utility*/
+
+.btn-primeiro{
+    background-color:#1DB954;
+    width: 250px;
+    height: 40px;
+    color: aliceblue;
+    border: none;
+    border-radius: 30px;
+   padding: 10px ;
+   letter-spacing: 1px;
+   font-weight: bold;
+}
+
+
+
+#navbar{
+    display: flex;
+    background-color: rgba(34, 33, 33, 0.6);
+    justify-content: center;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar-conteiner{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.logo{
+    width: auto;
+    height: 40px;
+}
+
+.navbar-conteiner ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar-conteiner ul li{
+    display: flex;
+    list-style: none;
+    padding:0px 20px;
+
+}
+
+/*show case */
+
+#show-case{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(/src/img/showcase.webp) center center/cover;
+    color: aliceblue;
+    background-color: rgb(28, 27, 27,0.7);
+    background-blend-mode: color;
+}
+
+.showcase-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showcase-conteiner h2{
+    font-size: 65px;
+    font-weight: 400;
+}
+.showcase-conteiner p {
+    margin: 13px;
+    font-size: 16px;
+}
+
+.footer-conteiner{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 50px 300px;
+    justify-content:space-between ;
+    font-size: 11px;
+    color: aliceblue;
+   
+}
+
+.menu-items-info{
+    padding: 10px;
+    list-style:none ;
+}
+.logo-social{
+    width:40px;
+   
+}
+
+.social-midia{
+    display: flex; 
+}
+
+.social-midia i {
+   margin:10px 15px;
+   font-size: 23px;
+}
+
+.footer-conteiner-infos{
+    color: aliceblue;
+    display: flex;
+}
+.footer-conteiner-infos .info-items{
+    display: flex;
+   margin-top: 30px;
+}
+.info-items-descricao{
+    list-style: none;
+    margin: 0px 20px;
+    font-size: 10px;
+    justify-content: space-between;
+
+}
+
+.copy-right{
+    color: aliceblue;
+    font-size: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    margin-right: 25px;
+    padding: 5px;
+    
+}
+
+.copy-right .logo{
+    width: 25px;
+    height: 18px;
+    padding: 2px;
+    margin-left: 6px;
+}
+
+
+
